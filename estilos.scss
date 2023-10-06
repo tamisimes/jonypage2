@@ -110,17 +110,25 @@ h1 {
   transition: transform 0.7s, background-color 0.5s;
 }
 
-#boton-lateral {
-  background-color:white;
-  box-shadow: #8d8d8c 2px 0px 2px;
-  border: none;
-  color: $azuloscuro;
-  border-radius: 0px;
-  font-size: 45px;
-  margin-top: 2px;
+.btn-group-vertical {
+  background-color: white;
+  height: 1200pxx;
+  width: 80px;
+  align-items: center;
+  box-shadow:$grisoscuro 2px 0px 2px;
+  margin-top: -270px;
 }
 
-.btn-group-vertical {
-  margin-top: -300px;
+.logo1 {
+  text-align: center;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  width: 150%; /* Ajusta el valor para agrandar la parte deseada */
+  height: 150%; /* Ajusta el valor para agrandar la parte deseada */
+  transform-origin: center;
+  color: $azuloscuro;
 }
+
+
 
