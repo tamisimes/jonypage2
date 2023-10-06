@@ -1,0 +1,119 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.section1 {
+  color: #fff;
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
+  background-position: center;
+  height: 100vh;
+  min-height: 80rem;
+  max-height: 120rem;
+}
+
+section {
+  display: block;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  float: right;
+}
+
+.navbar-nav {
+  color: #bdb8ad;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+  color: #44749d;
+}
+
+h1 {
+  color: #44749d;
+  padding-top: 270px;
+  text-align: center;
+  font-size: 300%;
+}
+
+.separator {
+  background-color: #c6d4e1; /* Color de las barras */
+  width: 2px; /* Ancho de las barras */
+  display: inline-block; /* Para que las barras sean elementos en línea */
+  margin-top: 10px;
+  height: 20px; /* Altura de las barras */
+}
+
+
+.navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: inherit;
+  letter-spacing: 1px;
+  color: gray;
+  font-size: 15px;
+}
+
+.section1-info {
+  text-align: center;
+  color: #8d8d8c;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 170%;
+  padding: 20px;
+}
+
+.boton-work {
+  color: #44749d;
+}
+
+.boton-work {
+  text-align: center;
+  padding-top: 1%;
+}
+
+/* Estilos para el botón gris */
+#boton-work2 {
+  background-color: #44749d;
+  border: 5px solid #c6d4e1;
+  padding: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 7px;
+  color: white; /* Texto blanco */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  cursor: pointer; /* Cursor de selección al pasar el ratón */
+  transition: transform 0.7s, background-color 0.5s;
+}
+
+#boton-lateral {
+  background-color: white;
+  box-shadow: #8d8d8c 2px 0px 2px;
+  border: none;
+  color: #44749d;
+  border-radius: 0px;
+  font-size: 45px;
+  margin-top: 2px;
+}
+
+.btn-group-vertical {
+  margin-top: -300px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
