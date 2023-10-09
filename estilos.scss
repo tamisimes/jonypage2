@@ -1,6 +1,6 @@
 $azuloscuro: #44749d;
 $azulclaro: #c6d4e1;
-$grisoscuro: #8d8d8c;
+$grisoscuro: #535352;
 $grisclaro:#ebe7e0;
 
 @charset "UTF-8";
@@ -16,8 +16,8 @@ $grisclaro:#ebe7e0;
   background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(/daac885…/c157c/assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
-  min-height: 80rem;
-  max-height: 120rem;
+  min-height: 42rem;
+  max-height: 42rem;
 }
 
 section {
@@ -106,8 +106,6 @@ h1 {
   letter-spacing:7px;
   color: white; /* Texto blanco */
   padding: 10px 20px; /* Espaciado interno del botón */
-  cursor: pointer; /* Cursor de selección al pasar el ratón */
-  transition: transform 0.7s, background-color 0.5s;
 }
 
 .btn-group-vertical {
@@ -116,7 +114,7 @@ h1 {
   width: 80px;
   align-items: center;
   box-shadow:$grisoscuro 2px 0px 2px;
-  margin-top: -270px;
+  margin-top: -280px;
 }
 
 .logo1 {
@@ -130,9 +128,69 @@ h1 {
   color: $grisclaro;
   margin-right: 20px; /* Ajusta el valor según el espacio que desees entre los logotipos */
   background-color:$azuloscuro;
+  border-radius: 2px;
 }
 
 
 a:hover .logo1 {
   background-color: $grisoscuro;
+}
+
+.section2 {
+  color:$azuloscuro;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(115,129,134,0.7483368347338936) 0%, rgba(68,116,157,1) 100%);  background-position: center;
+  height: 100vh;
+  min-height: 45rem;
+  max-height: 45rem;
+}
+
+#columna-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;   
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boton-contenedor {
+  padding: 0rem 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  background: white;
+  border-radius: 5px;
+  font-size: 15px;
+  color: $azuloscuro;
+  font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.titulo-aboutme {
+  font-size: 60px;
+  color: $grisclaro;
+  padding-top: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#presentacion-jony {
+  color: $grisclaro;
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 30px;
+}
+
+#foto-jony {
+  height: 50%;
+  box-shadow: 2px 5px 5px $grisoscuro;
+}
+
+.skill-titulo {
+  color: $grisclaro;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: overline;
+  text-align: left;
+  padding-top: 100px;
+  font-size: 30px;
+
 }
