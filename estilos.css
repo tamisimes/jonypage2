@@ -104,7 +104,7 @@ h1 {
 
 .btn-group-vertical {
   background-color: white;
-  height: 1200pxx;
+  height: 0px;
   width: 80px;
   align-items: center;
   box-shadow: #8d8d8c 2px 0px 2px;
@@ -116,10 +116,16 @@ h1 {
   padding: 15px;
   top: 0;
   left: 0;
-  width: 150%; /* Ajusta el valor para agrandar la parte deseada */
-  height: 150%; /* Ajusta el valor para agrandar la parte deseada */
+  width: 60%; /* Ajusta el valor para agrandar la parte deseada */
+  height: 60%; /* Ajusta el valor para agrandar la parte deseada */
   transform-origin: center;
-  color: #44749d;
+  color: #ebe7e0;
+  margin-right: 20px; /* Ajusta el valor según el espacio que desees entre los logotipos */
+  background-color: #44749d;
+}
+
+a:hover .logo1 {
+  background-color: #8d8d8c;
 }
 
 /*# sourceMappingURL=estilos.css.map */
